@@ -1,11 +1,11 @@
 import mongoose, { Schema, Document, Types } from "mongoose";
 
 export interface IUser extends Document {
-    name: string;
+  name: string;
 }
 
 const UserSchema: Schema<IUser> = new Schema({
-    name: { type: String, required: true}
+  name: { type: String, required: true },
 });
 
 const User = mongoose.model<IUser>("User", UserSchema);
