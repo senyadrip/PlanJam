@@ -1,0 +1,17 @@
+{
+  "github.copilot.enable": {
+    "*": false,
+    "COBOL": true,
+    "COBOLIT": true,
+    "ACUCOBOL": true,
+    "BITLANG-COBOL": true,
+    "RMCOBOL": true,
+    "ILECOBOL": true,
+    "COBOL_MF_LISTFILE": false,
+    "COBOL_PCOB_LISTFILE": false,
+    "COBOL_ACU_LISTFILE": false,
+    "COBOL_MF_PREP": false,
+    "mfu": false,
+    "utreport": false
+  }
+}

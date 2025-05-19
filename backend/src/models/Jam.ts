@@ -33,4 +33,5 @@ const JamSchema: Schema<IJam> = new Schema({
 });
 
 const Jam = mongoose.model<IJam>("Jam", JamSchema);
+
 export default Jam;
